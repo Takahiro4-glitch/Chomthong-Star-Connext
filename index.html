@@ -5,10 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Chomthong Star Connext</title>
+
+  <!-- favicon โลโก้โรงเรียนจอมทอง -->
   <link rel="icon" type="image/jpeg" href="https://i.ibb.co/q3Y7Txgf/e43b73e4-0feb-43c2-b020-e67d3eddfc04.jpg">
   <link rel="apple-touch-icon" href="https://i.ibb.co/q3Y7Txgf/e43b73e4-0feb-43c2-b020-e67d3eddfc04.jpg">
+
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
     html, body {
       margin: 0;
       padding: 0;
@@ -42,13 +47,15 @@
     }
   </style>
 </head>
+
 <body>
   <div class="embed-container">
-    <!-- การเข้าถึง Web app ยังคงขึ้นอยู่กับสิทธิ์ deployment และบัญชี Google -->
+    <!-- ใช้ iframe แทน object เพื่อรองรับเบราว์เซอร์บนมือถือ -->
+    <!-- ใช้ /macros/s/... เพื่อลดปัญหาหน้าบังคับล็อกอินโดเมน -->
     <iframe
       id="gasAppFrame"
       class="embed-frame"
-      src="https://script.google.com/macros/s/AKfycbzJTqZjXfvHpoqng9xkGsHTcqYStqA4MyT3GtDAd5_VEfNWomKcZLj6IDEInKel-10/exec?embed=1"
+      src="https://script.google.com/macros/s/AKfycbw5WV8jrKqVp2S4uKii9j76Kl9XmZMmJ11cGPfneLXFTDylEqoN16D1kOjvLGKZDARX/exec?embed=1"
       title="Chomthong Star Connext"
       allow="clipboard-read; clipboard-write; fullscreen"
       allowfullscreen>
